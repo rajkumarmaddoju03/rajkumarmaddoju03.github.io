@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 html {
@@ -97,7 +97,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(2, 24, 32);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
