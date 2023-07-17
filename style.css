@@ -325,7 +325,8 @@ section {
 .experience-sub-title {
   color: rgb(7, 7, 7);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.50rem;
+  font-style: italic;
   margin-bottom: 2rem;
 }
 
