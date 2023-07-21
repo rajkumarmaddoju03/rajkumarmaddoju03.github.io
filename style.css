@@ -1,7 +1,6 @@
 /* GENERAL */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 
 * {
@@ -10,7 +9,7 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -18,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(52, 52, 52);
+  color: rgb(0, 0, 0);
 }
 
 /* TRANSITION */
@@ -50,7 +49,7 @@ nav {
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(252, 252, 253);
 }
 
 a:hover {
@@ -62,6 +61,8 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-style: bold;
 }
 
 .logo:hover {
@@ -104,6 +105,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  font-style: bold;
 }
 
 .menu-links a {
@@ -114,6 +116,7 @@ a:hover {
   color: rgb(69, 68, 68);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  font-style: bold;
 }
 
 .menu-links li {
@@ -189,18 +192,32 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: rgb(0, 0, 0);
+  font-style: bold;
 }
 
 .section__text__p2 {
+  font-size: 1.50rem;
+  margin-bottom: 1rem;
+  color: rgb(39, 39, 39);
+}
+.section__text__p3 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: rgb(46, 46, 46);
 }
-
-.title {
+.title-name {
   font-size: 3rem;
   text-align: center;
+  font-style: bold;
+  color: rgb(0, 107, 126);
 }
-
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-style: bold;
+  color: rgb(0, 9, 10);
+}
 #socials-container {
   display: flex;
   justify-content: center;
@@ -233,7 +250,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(17, 16, 16) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -243,7 +260,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(12, 12, 12);
   color: white;
 }
 
