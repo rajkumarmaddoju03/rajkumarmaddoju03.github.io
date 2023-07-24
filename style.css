@@ -1,6 +1,7 @@
 /* GENERAL */
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
 
 * {
   margin: 0;
@@ -8,7 +9,8 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+ 
+  font-family: 'Edu SA Beginner', cursive;
 }
 
 html {
@@ -112,7 +114,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(224, 5, 5);
+  color: rgb(69, 68, 68);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
   font-style: bold;
@@ -209,7 +211,7 @@ section {
   font-size: 3rem;
   text-align: center;
   font-style: bold;
-  color: rgb(0, 107, 126);
+  color:#b62e2e;
 }
 .title {
   font-size: 2rem;
