@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(85, 85, 85);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -336,6 +336,72 @@ section {
   margin: auto 0;
 }
 
+.skills-container{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  align-items:center;
+  gap:2rem;
+  margin-top:4rem;
+}
+.bars-box {
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+.bars-box h3,span{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.light-bar{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 0.5rem;
+  background: hsla(160, 100%, 44%, 0.4);
+  border-radius:0.5rem;
+}
+.percent-bar{
+  position:absolute;
+  bottom:0;
+  left:0;
+  height: 0.5em;
+  background: rgb(12, 12, 12);
+  border-radius: 0.6rem;
+}
+.gbq-bar{
+  width: 95%; 
+}
+.gcp-bar{
+  width: 85%; 
+}
+.mysql-bar{
+  width: 85%; 
+}
+.python-bar{
+  width: 90%; 
+}
+.java-bar{
+  width: 80%; 
+}
+.cpp-bar{
+  width: 80%; 
+}
+.htmlpcss-bar{
+  width: 95%; 
+}
+.javascript-bar{
+  width: 85%; 
+}
+.github-bar{
+  width: 95%; 
+}
+.visualstudio-bar{
+  width: 95%; 
+}
 /* EXPERIENCE SECTION */
 
 #experience {
