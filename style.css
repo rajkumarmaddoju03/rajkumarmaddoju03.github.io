@@ -104,7 +104,7 @@ a:hover {
   background-color: rgb(254, 255, 255);
   width: fit-content;
   max-height: 0;
-  overflow: hidden;
+  overflow:hidden;
   transition: all 0.3 ease-in-out;
   font-style: bold;
 }
