@@ -212,7 +212,7 @@ section {
   font-size: 3rem;
   text-align: center;
   font-style: bold;
-  color:#b62e2e;
+  color:#b41d1d;
 }
 .title {
   font-size: 2rem;
@@ -533,4 +533,8 @@ footer {
 
 footer p {
   text-align: center;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+    color: #000000;
 }
