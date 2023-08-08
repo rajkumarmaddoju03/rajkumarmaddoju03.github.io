@@ -18,6 +18,7 @@
     #experience,
     .experience-details-container {
       margin-top: 2rem;
+      grid-row: auto;
     }
     #profile,
     .section-container {
@@ -40,6 +41,9 @@
     }
     .about-containers {
       margin-top: 0;
+    }
+    .skills-container {
+      margin: auto;
     }
   }
   
