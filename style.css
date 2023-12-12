@@ -361,7 +361,7 @@ section {
   left:0;
   width:100%;
   height: 0.5rem;
-  background: hsla(160, 100%, 44%, 0.4);
+  background: hsla(8, 95%, 50%, 0.4);
   border-radius:0.5rem;
 }
 .percent-bar{
